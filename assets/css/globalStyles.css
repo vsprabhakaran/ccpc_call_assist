@@ -1,0 +1,128 @@
+.ui-datepicker {
+	font-size: 12px;
+}
+#statusBanner {
+	width: 100%;
+}
+#statusBanner 	.banner_headLine {
+	width: 99%;
+	height: 1.5em;
+	background-color: rgb(185, 245, 101);
+	padding: 0.2em 0 0.2em 1%;
+}
+#statusBanner  .banner_headLine div {
+	margin-top: 0.1em;
+	width: 19%;
+	display: inline;
+	float: left;
+	height: 1em;
+}
+#statusBanner  .banner_CircleStatus {
+	width: 100%;
+	display: table-cell;
+	background-color: rgb(203, 203, 203);
+	padding: 0.2em;
+}
+#statusBanner  .banner_CircleStatus div {
+	height: 1em;
+	margin-top: 0.1em;
+	display: inline;
+	float: left;
+	margin-right: 0.2em;
+	margin-left: 0.2em;
+	background-color: #F5F5DC;
+	padding: 0.5em;
+}
+
+div#chequePanel input[type=text], select {
+	border: solid 1px #BFBDBD;
+}
+div#chequePanel input[type=button] {
+	background-color: #02aca3;
+	color: #979797;
+	color: #fff;
+	text-transform: uppercase;
+	border: solid 1px #02aca3;
+}
+div#chequePanel  #chequeDetailsPanel, #searchPanel {
+	text-align: center;
+}
+div#chequePanel  #chequeListPanel, #chequeImage {
+	display: table;
+	margin: 0 auto;
+}
+
+
+div#pendingRibbonParent {
+	position: relative;
+}
+div#pendingRibbon {
+	display: table-cell;
+	position: absolute;
+	float: right;
+	background-image: url('images/ribbon.png');
+	background-repeat: no-repeat;
+	height: 4em;
+	width: 8em;
+	text-align: center;
+	color: white;
+	background-size: 100% 100%;
+	vertical-align: middle;
+	line-height: 4em;
+	font-weight: bold;
+	font-family: "Comic Sans MS";
+	right: 0;
+}
+div.formHeading {
+	padding-bottom: 0em;
+	margin-left: 1em;
+	font-weight: bold;
+	color: rgb(185, 0, 0);
+}
+div#chequeButtonPanel div {
+	display:inline-block;
+	width:33%;
+	margin-top:1em;
+}
+div#chequeButtonPanel div button,input[type=submit]{
+	margin-left:1em;
+	margin-right:1em;
+}
+
+div#chequeButtonPanel div.left{
+	text-align: left;
+}
+div#chequeButtonPanel div.mid{
+	text-align: center;
+}
+div#chequeButtonPanel div.right{
+	text-align: right;
+}
+
+ul.noMoreData {
+	display: block;
+	list-style-type: disc;
+	list-style:none;
+	width: 20em;
+}
+ul.noMoreData li{
+	text-align: center;
+	padding:0.5em;
+}
+ul.noMoreData li.sessionStatus div{
+	padding:0.5em;
+	background-color: #F5F5DC;
+}
+ul.noMoreData li.sessionStatus div:first-child{
+	color:red;
+	font-weight:bold;
+}
+ul.noMoreData li.Heading{
+	color:rgb(185,0,0);
+	font-weight: bold;
+	background-color: #F5F5DC;
+}
+div.noMoreDataParent{
+	text-align:center;
+	margin-left:33%
+}
